@@ -117,69 +117,65 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
-  
+
 /* Consultas de medios para pantallas pequeñas */
 @media (max-width: 768px) {
-.wrapper {
-    margin-top: 20px;
-}
+    .wrapper {
+        margin-top: 20px;
+    }
 
-.simonButton {
-    width: 80px;
-    height: 40px;
-    font-size: 14px;
-}
+    .simonButton {
+        width: 80px;
+        height: 40px;
+        font-size: 14px;
+    }
 
-.linkButton {
-    padding: 8px 16px;
-    margin: 10px;
-}
+    .linkButton {
+        padding: 8px 16px;
+        margin: 10px;
+    }
 
-#gameBoard {
-    flex-direction: column;
-}
+    #gameBoard {
+        flex-direction: column;
+        align-items: center; /* Centrar el tablero */
+    }
 
-.gameBoard {
-    grid-template-columns: repeat(2, 1fr); /* Mantener 2 columnas */
-    width: 90%; /* Ajustar el ancho del tablero del juego */
-}
+    .gameBoard {
+        grid-template-columns: repeat(2, 1fr); /* Mantener 2 columnas */
+    }
 
-.buttonGame {
-    width: 150px;
-    height: 150px;
-    margin: 10px;
-}
+    .buttonGame {
+        width: 150px;
+        height: 150px;
+    }
 
-.modal-content {
-    width: 90%; /* Aumentar el ancho del modal en pantallas más pequeñas */
-}
+    .modal-content {
+        width: 90%; /* Aumentar el ancho del modal en pantallas más pequeñas */
+    }
 
-/* Estilo para reorganizar los botones en pantallas pequeñas */
-.headerBoard {
-    flex-direction: column; /* Apilar los botones verticalmente */
-}
+    .headerBoard {
+        flex-direction: column; /* Apilar los botones verticalmente */
+    }
 }
 
 @media (max-width: 480px) {
-.simonButton {
-    width: 60px;
-    height: 30px;
-    font-size: 12px;
-}
+    .simonButton {
+        width: 60px;
+        height: 30px;
+        font-size: 12px;
+    }
 
-.linkButton {
-    padding: 6px 12px;
-    margin: 8px;
-}
+    .linkButton {
+        padding: 6px 12px;
+        margin: 8px;
+    }
 
-.gameBoard {
-    grid-template-columns: repeat(2, 1fr); /* Mantener 2 columnas */
-    width: 100%; /* Ajustar el ancho del tablero del juego */
-}
+    .gameBoard {
+        grid-template-columns: repeat(2, 1fr); /* Mantener 2 columnas */
+    }
 
-.buttonGame {
-    width: 120px;
-    height: 120px;
-    margin: 8px;
-}
+    .buttonGame {
+        width: 120px;
+        height: 120px;
+    }
 }
