@@ -93,29 +93,93 @@ body {
     height: 100%;
     overflow: auto; /* Hacer scroll si es necesario */
     background-color: rgba(0,0,0,0.4); /* Fondo oscuro */
-  }
+}
   
-  /* Estilo para el contenido del modal */
-  .modal-content {
+/* Estilo para el contenido del modal */
+.modal-content {
     background-color: #fefefe;
     margin: 15% auto; /* Centrar vertical y horizontalmente */
     padding: 20px;
     border: 1px solid #888;
     width: 80%; /* 80% del ancho de la ventana */
-  }
+}
   
-  /* Estilo para el botón de cerrar */
-  .close {
+/* Estilo para el botón de cerrar */
+.close {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
-  }
+}
   
-  .close:hover,
-  .close:focus {
+.close:hover, .close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
-  }
+}
   
+/* Consultas de medios para pantallas pequeñas */
+@media (max-width: 768px) {
+.wrapper {
+    margin-top: 20px;
+}
+
+.simonButton {
+    width: 80px;
+    height: 40px;
+    font-size: 14px;
+}
+
+.linkButton {
+    padding: 8px 16px;
+    margin: 10px;
+}
+
+#gameBoard {
+    flex-direction: column;
+}
+
+.gameBoard {
+    grid-template-columns: repeat(2, 1fr); /* Mantener 2 columnas */
+    width: 90%; /* Ajustar el ancho del tablero del juego */
+}
+
+.buttonGame {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.modal-content {
+    width: 90%; /* Aumentar el ancho del modal en pantallas más pequeñas */
+}
+
+/* Estilo para reorganizar los botones en pantallas pequeñas */
+.headerBoard {
+    flex-direction: column; /* Apilar los botones verticalmente */
+}
+}
+
+@media (max-width: 480px) {
+.simonButton {
+    width: 60px;
+    height: 30px;
+    font-size: 12px;
+}
+
+.linkButton {
+    padding: 6px 12px;
+    margin: 8px;
+}
+
+.gameBoard {
+    grid-template-columns: repeat(2, 1fr); /* Mantener 2 columnas */
+    width: 100%; /* Ajustar el ancho del tablero del juego */
+}
+
+.buttonGame {
+    width: 120px;
+    height: 120px;
+    margin: 8px;
+}
+}

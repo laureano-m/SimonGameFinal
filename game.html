@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <h1 id="title">Simon Game</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1 id="title">Simon Game</h1>
 
-    <!-- Regristro usuario  -->
-    <div id="headerBoard" class="headerBoard">
-        <input id="name" class="input" placeholder="Player name"></input>
-        <p id="alert" class="disabled"></p>
-        <button id="startButton" class="simonButton">Start Game</button>
-    </div>
-
-    <!-- Juego -->
-    <div id="gameBoard">
-        <h2 id="user"></h2>
-        <h2 id="score"></h2>
-        <h2 id="level"></h2>
-        <div class="gameBoard">
-            <button id="red" class="buttonGame"></button>
-            <button id="green" class="buttonGame"></button>
-            <button id="blue" class="buttonGame"></button>
-            <button id="yellow" class="buttonGame"></button>
+        <!-- Regristro usuario  -->
+        <div id="headerBoard" class="headerBoard">
+            <input id="name" class="input" placeholder="Player name"></input>
+            <p id="alert" class="disabled"></p>
+            <button id="startButton" class="simonButton">Start Game</button>
         </div>
-    </div>
 
-    <!-- Fin del juego -->
-    <div id="myModal" class="modal">
-        <div class="modal-content">
-          <p>¡Game Over! Has perdido.</p>
-          <div id="endBoard" class="endBoard">
-            <button id="restartButton" class="simonButton">Restart Game</button>
-            <button id="exitButton" class="simonButton" >Exit Game</button>
+        <!-- Juego -->
+        <div id="gameBoard">
+            <h2 id="user"></h2>
+            <h2 id="score"></h2>
+            <h2 id="level"></h2>
+            <div class="gameBoard">
+                <button id="red" class="buttonGame"></button>
+                <button id="green" class="buttonGame"></button>
+                <button id="blue" class="buttonGame"></button>
+                <button id="yellow" class="buttonGame"></button>
+            </div>
         </div>
-        </div>
-    </div>
 
-    <script src="js/main.js"></script> 
-</body>
+        <!-- Fin del juego -->
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+            <p>¡Game Over! Has perdido.</p>
+                <div id="endBoard" class="endBoard">
+                <button id="restartButton" class="simonButton">Restart Game</button>
+                <button id="exitButton" class="simonButton" >Exit Game</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/main.js"></script> 
+    </body>
 </html>

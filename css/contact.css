@@ -41,3 +41,40 @@ body {
 .button:active {
     background-color: #3e8e41; 
 }
+
+/* Consultas de medios para pantallas pequeñas */
+@media (max-width: 768px) {
+.wrapper {
+    padding: 10px; /* Añadir padding para evitar que el contenido toque los bordes de la pantalla */
+}
+
+.input {
+    padding: 6px;
+    margin-bottom: 8px;
+    width: 90%; /* Ajustar el ancho del input */
+}
+
+.button {
+    width: 90%; /* Ajustar el ancho de los botones */
+    padding: 12px; /* Aumentar el padding para facilitar el clic */
+    font-size: 14px; /* Reducir el tamaño de la fuente para pantallas más pequeñas */
+}
+}
+
+@media (max-width: 480px) {
+.wrapper {
+    padding: 5px; /* Reducir el padding para pantallas aún más pequeñas */
+}
+
+.input {
+    padding: 5px;
+    margin-bottom: 6px;
+    width: 95%; /* Ajustar el ancho del input */
+}
+
+.button {
+    width: 95%; /* Ajustar el ancho de los botones */
+    padding: 14px; /* Aumentar el padding para facilitar el clic */
+    font-size: 12px; /* Reducir aún más el tamaño de la fuente */
+}
+}

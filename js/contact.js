@@ -1,3 +1,5 @@
+"use strict";
+
 var form = document.querySelector('.contactForm');
 var nameInput = document.getElementById('name');
 var emailInput = document.getElementById('email');

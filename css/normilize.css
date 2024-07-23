@@ -1,0 +1,85 @@
+/* normalize.css v8.0.1 | Licencia MIT | github.com/necolas/normalize.css */
+
+/* 1. Establecer estilos básicos para los elementos principales */
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  body {
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  /* 2. Agregar el display correcto en IE 10+ */
+  hr {
+    height: 0; /* 1 */
+    color: inherit; /* 2 */
+    border-top: 1px solid #ccc; /* 3 */
+  }
+  
+  /* 3. Agregar el display correcto en IE 10+ */
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  /* 4. Agregar el tamaño de fuente correcto en IE 10+ */
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font: inherit; /* 1 */
+  }
+  
+  /* 5. Agregar el borde correcto en IE 10+ */
+  table {
+    border-collapse: collapse; /* 1 */
+    border-spacing: 0; /* 2 */
+  }
+  
+  /* 6. Agregar la decoración del texto correcta en IE 10+ */
+  a {
+    background-color: transparent; /* 1 */
+  }
+  
+  /* 7. Agregar la altura de línea correcta en IE 10+ */
+  code {
+    font-family: monospace, monospace; /* 1 */
+  }
+  
+  /* 8. Agregar el tamaño de fuente correcto en IE 10+ */
+  small {
+    font-size: 80%; /* 1 */
+  }
+  
+  /* 9. Eliminar el estilo de lista predeterminado en IE 10+ */
+  ul {
+    padding: 0; /* 1 */
+    margin: 0; /* 2 */
+    list-style: none; /* 3 */
+  }
+  
+  /* 10. Eliminar el estilo predeterminado en IE 10+ */
+  blockquote {
+    margin: 0; /* 1 */
+  }
+  
+  /* 11. Eliminar el estilo predeterminado en IE 10+ */
+  b,
+  strong {
+    font-weight: bold; /* 1 */
+  }
+  
+  /* 12. Eliminar el estilo predeterminado en IE 10+ */
+  em {
+    font-style: italic; /* 1 */
+  }
+  
+  /* 13. Eliminar el estilo predeterminado en IE 10+ */
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+  }
+  

@@ -1,3 +1,5 @@
+"use strict";
+
 var state = 'press-key';
 var sequence = [];
 var player = "";
